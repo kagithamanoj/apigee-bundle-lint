@@ -1,0 +1,11 @@
+<ServiceCallout name="Hardcoded-Callout">
+  <Request>
+    <Set>
+      <Verb>GET</Verb>
+    </Set>
+  </Request>
+  <Response>calloutResponse</Response>
+  <HTTPTargetConnection>
+    <URL>https://internal.example.com/check</URL>
+  </HTTPTargetConnection>
+</ServiceCallout>

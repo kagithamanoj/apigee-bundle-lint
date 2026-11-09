@@ -1,0 +1,17 @@
+<TargetEndpoint name="default">
+  <PreFlow name="PreFlow">
+    <Request/>
+    <Response/>
+  </PreFlow>
+  <HTTPTargetConnection>
+    <URL>https://weather.example.com</URL>
+  </HTTPTargetConnection>
+  <FaultRules>
+    <FaultRule name="backend-down">
+      <Step>
+        <Name>Backend-Unavailable</Name>
+      </Step>
+      <Condition>(fault.name = "ErrorResponseCode")</Condition>
+    </FaultRule>
+  </FaultRules>
+</TargetEndpoint>

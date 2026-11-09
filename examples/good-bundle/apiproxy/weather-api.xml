@@ -1,0 +1,17 @@
+<APIProxy name="weather-api">
+  <Basepaths>/v1/weather</Basepaths>
+  <Policies>
+    <Policy>Verify-API-Key</Policy>
+    <Policy>Spike-Arrest</Policy>
+    <Policy>Daily-Quota</Policy>
+    <Policy>Add-CORS-Headers</Policy>
+    <Policy>Transform-Response</Policy>
+    <Policy>Backend-Unavailable</Policy>
+  </Policies>
+  <ProxyEndpoints>
+    <ProxyEndpoint>default</ProxyEndpoint>
+  </ProxyEndpoints>
+  <TargetEndpoints>
+    <TargetEndpoint>default</TargetEndpoint>
+  </TargetEndpoints>
+</APIProxy>

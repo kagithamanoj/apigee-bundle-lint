@@ -1,0 +1,3 @@
+<RaiseFault name="Empty-Fault">
+  <IgnoreUnresolvedVariables>true</IgnoreUnresolvedVariables>
+</RaiseFault>

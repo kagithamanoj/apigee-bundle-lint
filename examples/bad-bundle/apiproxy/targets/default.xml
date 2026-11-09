@@ -1,0 +1,8 @@
+<TargetEndpoint name="default">
+  <PreFlow name="PreFlow">
+    <Request/>
+    <Response/>
+  </PreFlow>
+  <HTTPTargetConnection>
+  </HTTPTargetConnection>
+</TargetEndpoint>

@@ -1,0 +1,3 @@
+<TargetEndpoint name="broken">
+  <HTTPTargetConnection>
+    <URL>https://example.com

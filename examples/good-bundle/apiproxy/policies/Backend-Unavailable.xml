@@ -1,0 +1,9 @@
+<RaiseFault name="Backend-Unavailable">
+  <FaultResponse>
+    <Set>
+      <StatusCode>503</StatusCode>
+      <ReasonPhrase>Service Unavailable</ReasonPhrase>
+    </Set>
+  </FaultResponse>
+  <IgnoreUnresolvedVariables>true</IgnoreUnresolvedVariables>
+</RaiseFault>

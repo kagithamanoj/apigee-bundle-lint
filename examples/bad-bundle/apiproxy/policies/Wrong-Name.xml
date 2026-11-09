@@ -1,0 +1,7 @@
+<AssignMessage name="Something-Else">
+  <Set>
+    <Headers>
+      <Header name="X-Debug">true</Header>
+    </Headers>
+  </Set>
+</AssignMessage>

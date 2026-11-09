@@ -1,0 +1,5 @@
+<AssignMessage name="Unlisted-Policy">
+  <Set>
+    <Payload>not declared in the APIProxy root</Payload>
+  </Set>
+</AssignMessage>

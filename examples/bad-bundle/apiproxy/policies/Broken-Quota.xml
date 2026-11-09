@@ -1,0 +1,5 @@
+<Quota name="Broken-Quota">
+  <Interval>0</Interval>
+  <TimeUnit>fortnight</TimeUnit>
+  <Allow count="100"/>
+</Quota>

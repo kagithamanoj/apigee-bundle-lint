@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "apigee-bundle-lint"
+version = "0.1.0"
+description = "Lint Apigee API proxy bundles for common policy mistakes."
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.9"
+dependencies = []
+authors = [{ name = "Manoj Kumar Kagitha" }]
+
+[project.scripts]
+apigee-bundle-lint = "apigee_bundle_lint.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["apigee_bundle_lint*"]

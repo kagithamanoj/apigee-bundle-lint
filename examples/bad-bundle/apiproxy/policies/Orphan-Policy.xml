@@ -1,0 +1,5 @@
+<AssignMessage name="Orphan-Policy">
+  <Set>
+    <Payload>never used</Payload>
+  </Set>
+</AssignMessage>

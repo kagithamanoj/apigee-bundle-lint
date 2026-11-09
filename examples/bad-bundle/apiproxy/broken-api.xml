@@ -1,0 +1,20 @@
+<APIProxy name="broken-api">
+  <Basepaths>/v1/broken</Basepaths>
+  <Policies>
+    <Policy>Verify-API-Key</Policy>
+    <Policy>Spike-Arrest</Policy>
+    <Policy>Broken-Quota</Policy>
+    <Policy>Empty-Fault</Policy>
+    <Policy>Hardcoded-Callout</Policy>
+    <Policy>Missing-Script</Policy>
+    <Policy>Wrong-Name</Policy>
+    <Policy>Orphan-Policy</Policy>
+  </Policies>
+  <ProxyEndpoints>
+    <ProxyEndpoint>default</ProxyEndpoint>
+    <ProxyEndpoint>open</ProxyEndpoint>
+  </ProxyEndpoints>
+  <TargetEndpoints>
+    <TargetEndpoint>default</TargetEndpoint>
+  </TargetEndpoints>
+</APIProxy>

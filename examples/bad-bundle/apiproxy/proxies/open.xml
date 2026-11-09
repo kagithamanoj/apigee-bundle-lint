@@ -1,0 +1,7 @@
+<ProxyEndpoint name="open">
+  <HTTPProxyConnection>
+  </HTTPProxyConnection>
+  <RouteRule name="default">
+    <TargetEndpoint>default</TargetEndpoint>
+  </RouteRule>
+</ProxyEndpoint>

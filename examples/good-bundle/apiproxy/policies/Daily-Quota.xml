@@ -1,0 +1,5 @@
+<Quota name="Daily-Quota">
+  <Interval>1</Interval>
+  <TimeUnit>day</TimeUnit>
+  <Allow count="10000"/>
+</Quota>
